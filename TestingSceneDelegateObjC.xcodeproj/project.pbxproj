@@ -15,6 +15,9 @@
 		6C7E6B6923C9DEBB00E08BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7E6B6723C9DEBB00E08BAF /* LaunchScreen.storyboard */; };
 		6C7E6B6C23C9DEBB00E08BAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E6B6B23C9DEBB00E08BAF /* main.m */; };
 		6C7E6B7623C9DEBC00E08BAF /* TestingSceneDelegateObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E6B7523C9DEBC00E08BAF /* TestingSceneDelegateObjCTests.m */; };
+		6C7E6B8223C9E2EA00E08BAF /* TestingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E6B8123C9E2EA00E08BAF /* TestingAppDelegate.m */; };
+		6C7E6B8523C9E3A100E08BAF /* TestingSceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E6B8423C9E3A100E08BAF /* TestingSceneDelegate.m */; };
+		6C7E6B8823C9E4B300E08BAF /* TestingRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7E6B8723C9E4B300E08BAF /* TestingRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,12 @@
 		6C7E6B7123C9DEBC00E08BAF /* TestingSceneDelegateObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingSceneDelegateObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C7E6B7523C9DEBC00E08BAF /* TestingSceneDelegateObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingSceneDelegateObjCTests.m; sourceTree = "<group>"; };
 		6C7E6B7723C9DEBC00E08BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C7E6B8023C9E2EA00E08BAF /* TestingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestingAppDelegate.h; sourceTree = "<group>"; };
+		6C7E6B8123C9E2EA00E08BAF /* TestingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingAppDelegate.m; sourceTree = "<group>"; };
+		6C7E6B8323C9E3A100E08BAF /* TestingSceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestingSceneDelegate.h; sourceTree = "<group>"; };
+		6C7E6B8423C9E3A100E08BAF /* TestingSceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingSceneDelegate.m; sourceTree = "<group>"; };
+		6C7E6B8623C9E4B300E08BAF /* TestingRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestingRootViewController.h; sourceTree = "<group>"; };
+		6C7E6B8723C9E4B300E08BAF /* TestingRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +111,12 @@
 		6C7E6B7423C9DEBC00E08BAF /* TestingSceneDelegateObjCTests */ = {
 			isa = PBXGroup;
 			children = (
+				6C7E6B8023C9E2EA00E08BAF /* TestingAppDelegate.h */,
+				6C7E6B8123C9E2EA00E08BAF /* TestingAppDelegate.m */,
+				6C7E6B8323C9E3A100E08BAF /* TestingSceneDelegate.h */,
+				6C7E6B8423C9E3A100E08BAF /* TestingSceneDelegate.m */,
+				6C7E6B8623C9E4B300E08BAF /* TestingRootViewController.h */,
+				6C7E6B8723C9E4B300E08BAF /* TestingRootViewController.m */,
 				6C7E6B7523C9DEBC00E08BAF /* TestingSceneDelegateObjCTests.m */,
 				6C7E6B7723C9DEBC00E08BAF /* Info.plist */,
 			);
@@ -220,6 +235,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C7E6B7623C9DEBC00E08BAF /* TestingSceneDelegateObjCTests.m in Sources */,
+				6C7E6B8523C9E3A100E08BAF /* TestingSceneDelegate.m in Sources */,
+				6C7E6B8223C9E2EA00E08BAF /* TestingAppDelegate.m in Sources */,
+				6C7E6B8823C9E4B300E08BAF /* TestingRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
