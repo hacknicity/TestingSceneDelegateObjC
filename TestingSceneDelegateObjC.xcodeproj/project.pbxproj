@@ -52,6 +52,8 @@
 		6C7E6B8423C9E3A100E08BAF /* TestingSceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingSceneDelegate.m; sourceTree = "<group>"; };
 		6C7E6B8623C9E4B300E08BAF /* TestingRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestingRootViewController.h; sourceTree = "<group>"; };
 		6C7E6B8723C9E4B300E08BAF /* TestingRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingRootViewController.m; sourceTree = "<group>"; };
+		6C7E6B8923C9EE7400E08BAF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6C7E6B8A23C9EE7400E08BAF /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,8 @@
 		6C7E6B4D23C9DEBB00E08BAF = {
 			isa = PBXGroup;
 			children = (
+				6C7E6B8923C9EE7400E08BAF /* README.md */,
+				6C7E6B8A23C9EE7400E08BAF /* LICENSE */,
 				6C7E6B5823C9DEBB00E08BAF /* TestingSceneDelegateObjC */,
 				6C7E6B7423C9DEBC00E08BAF /* TestingSceneDelegateObjCTests */,
 				6C7E6B5723C9DEBB00E08BAF /* Products */,
