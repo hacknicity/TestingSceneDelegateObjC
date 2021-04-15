@@ -53,6 +53,7 @@
     // Use this method to select a configuration to create the new scene with.
     UISceneConfiguration *sceneConfiguration = [[UISceneConfiguration alloc] initWithName:nil sessionRole:connectingSceneSession.role];
     sceneConfiguration.delegateClass = [TestingSceneDelegate class];
+    sceneConfiguration.storyboard = nil;
 
     return sceneConfiguration;
 }
